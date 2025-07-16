@@ -1,0 +1,24 @@
+:root {
+  --dark: #222121;
+  --white: #fff;
+  --thatch-green: #3b3b1a;
+  --shadow: #8a784e;
+  --clay-ash: #aec8a4;
+  --tahuna-sands: #e7efc7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--dark);
+  color: var(--white);
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--thatch-green), var(--tahuna-sands));
+  padding-top: 4%;
+  padding-left: 10%;
+}
